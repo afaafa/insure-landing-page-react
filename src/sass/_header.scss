@@ -8,7 +8,7 @@
     align-items: center;
     z-index: 3;
     padding: 15px;
-    background-color: $veryLightGray;
+    background-color: $white;
     .logo {
         width: 100%;
     }
@@ -28,11 +28,11 @@
             padding: 18px 0;
             a {
                 text-decoration: none;
-                color: $veryLightGray;
+                color: $white;
             }
             .btn-view-plan {
-                border: 1px solid $veryLightGray;
-                color: $veryLightGray;
+                border: 1px solid $white;
+                color: $white;
                 padding: 20px 100px;
                 margin-bottom: 45px;
             }
@@ -54,7 +54,7 @@
     .intro {
         text-align: center;
         padding: 7rem 1.5rem;
-        color: $veryLightGray;
+        color: $white;
         position: relative;
         h1 {
             padding-bottom: 10px;
@@ -65,11 +65,11 @@
             line-height: 1.5;
         }
         .btn-view-plan-hero {
-            border: 1px solid $veryLightGray;
-            color: $veryLightGray;
+            border: 1px solid $white;
+            color: $white;
             padding: 10px 30px;
             &:hover {
-                background-color: $veryLightGray;
+                background-color: $white;
                 color: $veryDarkViolet;
             }
         }
@@ -77,11 +77,11 @@
     .pattern-intro-mob-left {
         position: absolute;
         left: 0;
-        top: 27.90rem;
+        top: 32rem;
     }
     .pattern-intro-mob-right {
         position: absolute;
         right: 0;
-        top: 50rem;
+        top: 53rem;
     }
 }

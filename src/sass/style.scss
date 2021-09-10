@@ -9,6 +9,8 @@ $grayishBlue: hsl(216, 30%, 68%);
 $veryDarkViolet: hsl(270, 9%, 17%);
 $darkGrayisViolet: hsl(273, 4%, 51%);
 $veryLightGray: hsl(0, 0%, 98%);
+$white: #fff;
+$darkGray: #333;
 
 *,
 *::before,
@@ -35,3 +37,4 @@ h1, h2, h3, h4, h5, h6 {
 
 @import 'header';
 @import 'main';
+@import 'footer';

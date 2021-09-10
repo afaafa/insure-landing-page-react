@@ -29,6 +29,7 @@ main {
                 }
                 p {
                     line-height: 1.5;
+                    color: $darkGrayisViolet;
                 }
             }
         }
@@ -37,10 +38,11 @@ main {
         background-color: $darkViolet;
         padding: 90px 20px;
         margin: 0 1rem;
+        margin-bottom: 8rem;
         img {
             position: absolute;
             right: 0;
-            top: 133.5rem;
+            top: 132rem;
             margin-right: 1em;
         }
         .how-we-work {
@@ -49,17 +51,17 @@ main {
             padding: 5px;
             h1 {
                 font-size: 2em;
-                color: $veryLightGray;
+                color: $white;
                 margin-bottom: 1em;
                 letter-spacing: 1px;
                 line-height: 1;
             }
             button {
-                border: 1px solid $veryLightGray;
-                color: $veryLightGray;
+                border: 1px solid $white;
+                color: $white;
                 padding: 10px 30px;
                 &:hover {
-                    background-color: $veryLightGray;
+                    background-color: $white;
                     color: $veryDarkViolet;
                 }
             }
