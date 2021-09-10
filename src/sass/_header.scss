@@ -1,0 +1,87 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: top 0.3s;
+    align-items: center;
+    z-index: 3;
+    padding: 15px;
+    background-color: $veryLightGray;
+    .logo {
+        width: 100%;
+    }
+    .nav-list {
+        position: fixed;
+        display: none;
+        top: 4.1rem;
+        background-color: $darkViolet;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        padding-top: 2rem;
+        left: 0;
+        justify-content: center;
+        .nav-item {
+            list-style-type: none;
+            padding: 18px 0;
+            a {
+                text-decoration: none;
+                color: $veryLightGray;
+            }
+            .btn-view-plan {
+                border: 1px solid $veryLightGray;
+                color: $veryLightGray;
+                padding: 20px 100px;
+                margin-bottom: 45px;
+            }
+        }
+    }
+    .active {
+        display: grid;
+    }
+}
+
+.hero {
+    background-color: $darkViolet;
+    width: 100%;
+    min-height: 400px;
+    .img-intro-mob {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .intro {
+        text-align: center;
+        padding: 7rem 1.5rem;
+        color: $veryLightGray;
+        position: relative;
+        h1 {
+            padding-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        p {
+            padding-bottom: 20px;
+            line-height: 1.5;
+        }
+        .btn-view-plan-hero {
+            border: 1px solid $veryLightGray;
+            color: $veryLightGray;
+            padding: 10px 30px;
+            &:hover {
+                background-color: $veryLightGray;
+                color: $veryDarkViolet;
+            }
+        }
+    }
+    .pattern-intro-mob-left {
+        position: absolute;
+        left: 0;
+        top: 27.90rem;
+    }
+    .pattern-intro-mob-right {
+        position: absolute;
+        right: 0;
+        top: 50rem;
+    }
+}

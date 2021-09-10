@@ -10,13 +10,16 @@ $veryDarkViolet: hsl(270, 9%, 17%);
 $darkGrayisViolet: hsl(273, 4%, 51%);
 $veryLightGray: hsl(0, 0%, 98%);
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body {
+body, button, p {
     font-size: 16px;
     font-family: 'Karla', sans-serif;
 }
@@ -25,24 +28,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'DM Serif Display', serif;
 }
 
-header {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 100%;
-    .navbar {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        transition: top 0.3s;
-        align-items: center;
-        z-index: 3;
-        padding: 15px 25px;
-        flex-wrap: wrap;
-        background-color: $darkGrayisViolet;
-        .nav-drawer {
-            display: grid;
-        }
-    }
+.btn {
+    background-color: transparent;
+    padding: 10px;
 }
+
+@import 'header';
+@import 'main';
