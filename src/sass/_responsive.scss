@@ -1,0 +1,50 @@
+@media screen and (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+    .navbar {
+        .logo {
+            width: 20%;
+        }
+        .nav-list {
+            flex-basis: auto;
+            align-items: center;
+            justify-content: flex-end;
+            padding-top: 0;
+            position: relative;
+            left: 0px;
+            top: auto;
+            box-shadow: none;
+            padding-bottom: 0px;
+            display: flex;
+            background-color: transparent;
+            margin: 0;
+            .nav-item {
+                padding: 0;
+                a {
+                    color: $darkGrayisViolet;
+                    text-align: center;
+                    padding-right: 30px;
+                    text-decoration: none;
+                }
+                li {
+                    list-style-type: none;
+                }
+                .btn-view-plan {
+                    border: 2px solid $veryDarkViolet;
+                    color: $veryDarkViolet;
+                    font-weight: 700;
+                    padding: 15px 30px;
+                    margin-bottom: 0;
+                    &:hover {
+                        background-color: $veryDarkViolet;
+                        color: $white;
+                    }
+                }
+            }
+        }
+        .bg-pattern-mob-nav {
+            display: none;
+        }
+    }
+}

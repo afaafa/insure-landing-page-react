@@ -28,7 +28,7 @@ const Header = () => {
                         <li className="nav-item">
                             <button className="btn btn-view-plan">VIEW PLANS</button>
                         </li>
-                        <li><BgPatternMobNav className="bg-pattern-mob-nav"/></li>
+                        <li className="nav-item"><BgPatternMobNav className="bg-pattern-mob-nav"/></li>
                     </ul>
                 </nav>
                 <HeaderHero />
