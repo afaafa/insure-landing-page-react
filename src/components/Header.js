@@ -23,9 +23,9 @@ const Header = () => {
                             }
                         </div>
                         <ul className={click ? "nav-list active" : "nav-list"}>
-                            <li className="nav-item"><a href="#" title="how we work">HOW WE WORK</a></li>
-                            <li className="nav-item"><a href="#" title="blog">BLOG</a></li>
-                            <li className="nav-item"><a href="#" title="account">ACCOUNT</a></li>
+                            <li className="nav-item"><a href="/#" title="how we work">HOW WE WORK</a></li>
+                            <li className="nav-item"><a href="/#" title="blog">BLOG</a></li>
+                            <li className="nav-item"><a href="/#" title="account">ACCOUNT</a></li>
                             <li className="nav-item">
                                 <button className="btn btn-view-plan">VIEW PLANS</button>
                             </li>

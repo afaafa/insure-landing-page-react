@@ -17,10 +17,10 @@ class Footer extends React.Component {
                     <div className="insure">
                         <Logo className="logo-footer"/>
                         <ul className="social-icon-list">
-                            <li><a href="#" target="_blank" title="facebook icon"><Facebook /></a></li>
-                            <li><a href="#" target="_blank" title="twitter icon"><Twitter /></a></li>
-                            <li><a href="#" target="_blank" title="pinterest icon"><Pinterest /></a></li>
-                            <li><a href="#" target="_blank" title="instagram icon"><Instagram /></a></li>
+                            <li><a href="/#" target="_blank" title="facebook icon"><Facebook /></a></li>
+                            <li><a href="/#" target="_blank" title="twitter icon"><Twitter /></a></li>
+                            <li><a href="/#" target="_blank" title="pinterest icon"><Pinterest /></a></li>
+                            <li><a href="/#" target="_blank" title="instagram icon"><Instagram /></a></li>
                         </ul>
                     </div>
                     <div className="line"></div>
@@ -62,8 +62,8 @@ class Footer extends React.Component {
                     </article>
                 </section>
                 <div className="attribution">
-                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-                    Coded by <a href="#">Fathonah Zuchriyah</a>.
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" title="frontend mentor" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
+                    Coded by <a href="/#">Fathonah Zuchriyah</a>.
                 </div>
             </footer>
         )

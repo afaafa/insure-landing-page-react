@@ -13,7 +13,7 @@ class HeaderHero extends React.Component {
                 <img src={BgPatternIntroLeftMob} className="pattern-intro-mob-left" alt="pattern intro mobile" />
                 <img src={BgPatternIntroLeft} className="pattern-intro-left" alt="pattern intro left" />
                 <div className="hero">
-                    <img src={ImageIntroMob} className="img-intro-mob" alt="image intro mobile" />
+                    <img src={ImageIntroMob} className="img-intro-mob" alt="intro mobile" />
                     <div className="intro">
                         <div className="line-hero"></div>
                         <h1>Humanizing your insurance.</h1>
@@ -22,7 +22,7 @@ class HeaderHero extends React.Component {
                             Ensure you and your loved ones are protected.</p>
                         <button className="btn btn-view-plan-hero">VIEW PLANS</button>
                     </div>
-                    <img src={ImageIntro} className="img-intro" alt="image intro dekstop" />
+                    <img src={ImageIntro} className="img-intro" alt="intro dekstop" />
                 </div>
                 <img src={BgPatternIntroRightMob} className="pattern-intro-mob-right" alt="pattern intro mobile" />
                 <img src={BgPatternIntroRight} className="pattern-intro-right" alt="pattern intro right" />
