@@ -1,76 +1,91 @@
-.navbar {
+.navbar-container {
     position: fixed;
     top: 0;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     transition: top 0.3s;
-    align-items: center;
     z-index: 3;
-    padding: 15px;
+    padding: 1.5em;
     background-color: $white;
-    .logo {
-        width: 100%;
-    }
-    .nav-list {
-        position: fixed;
-        display: none;
-        top: 4.1rem;
-        background-color: $darkViolet;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        padding-top: 2rem;
-        left: 0;
-        justify-content: center;
-        .nav-item {
-            list-style-type: none;
-            padding: 18px 0;
-            a {
-                text-decoration: none;
-                color: $white;
-            }
-            .btn-view-plan {
-                border: 1px solid $white;
-                color: $white;
-                padding: 20px 100px;
-                margin-bottom: 45px;
+    .navbar {
+        display: flex;
+        align-items: center;
+        max-width: 1170px;
+        margin: 0 auto;
+        .logo {
+            width: 100%;
+        }
+        .nav-list {
+            position: fixed;
+            display: none;
+            top: 5.3em;
+            background-color: $darkViolet;
+            width: 100%;
+            text-align: center;
+            transition: 0.3s;
+            padding-top: 2rem;
+            left: 0;
+            justify-content: center;
+            .nav-item {
+                list-style-type: none;
+                padding: 18px 0;
+                a {
+                    text-decoration: none;
+                    color: $white;
+                    font-weight: 700;
+                }
+                .btn-view-plan {
+                    border: 2px solid $white;
+                    color: $white;
+                    padding: 15px 112px;
+                    margin-bottom: 45px;
+                    font-weight: 700;
+                    &:hover {
+                        background-color: $white;
+                        color: $veryDarkViolet;
+                    }
+                }
             }
         }
+        .active {
+            display: grid;
+        }
     }
-    .active {
-        display: grid;
-    }
+    
 }
 
-.hero {
+.hero-container {
     background-color: $darkViolet;
     width: 100%;
     min-height: 400px;
-    .img-intro-mob {
-        width: 100%;
-        margin-top: 60px;
-    }
-    .intro {
-        text-align: center;
-        padding: 7rem 1.5rem;
-        color: $white;
-        position: relative;
-        h1 {
-            padding-bottom: 10px;
-            letter-spacing: 1px;
+    .hero {
+        max-width: 1170px;
+        .img-intro-mob {
+            width: 100%;
+            margin-top: 60px;
         }
-        p {
-            padding-bottom: 20px;
-            line-height: 1.5;
-        }
-        .btn-view-plan-hero {
-            border: 1px solid $white;
+        .intro {
+            text-align: center;
+            padding: 5rem 1.5em;
             color: $white;
-            padding: 10px 30px;
-            &:hover {
-                background-color: $white;
-                color: $veryDarkViolet;
+            position: relative;
+            h1 {
+                padding-bottom: 20px;
+                letter-spacing: 1px;
+                line-height: 1;
+            }
+            p {
+                padding-bottom: 20px;
+                line-height: 1.5;
+            }
+            .btn-view-plan-hero {
+                border: 2px solid $white;
+                color: $white;
+                padding: 10px 25px;
+                font-weight: 700;
+                &:hover {
+                    background-color: $white;
+                    color: $veryDarkViolet;
+                }
             }
         }
     }
@@ -82,6 +97,6 @@
     .pattern-intro-mob-right {
         position: absolute;
         right: 0;
-        top: 53rem;
+        top: 50rem;
     }
 }

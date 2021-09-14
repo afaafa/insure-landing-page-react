@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactComponent as BgPatternFooter } from "../assets/images/bg-pattern-footer-desktop.svg";
 import { ReactComponent as BgPatternFooterMob } from "../assets/images/bg-pattern-footer-mobile.svg";
 import { ReactComponent as Logo } from '../assets/images/logo.svg';
 import { ReactComponent as Facebook } from "../assets/images/icon-facebook.svg";
@@ -10,8 +11,9 @@ class Footer extends React.Component {
     render () {
         return (
             <footer>
+                <BgPatternFooter className="bg-footer"/>
+                <BgPatternFooterMob className="bg-footer-mob" />
                 <section className="section-footer-1">
-                    <BgPatternFooterMob />
                     <div className="insure">
                         <Logo className="logo-footer"/>
                         <ul className="social-icon-list">
@@ -59,7 +61,7 @@ class Footer extends React.Component {
                         </ul>
                     </article>
                 </section>
-                <div class="attribution">
+                <div className="attribution">
                     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
                     Coded by <a href="#">Fathonah Zuchriyah</a>.
                 </div>

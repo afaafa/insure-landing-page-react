@@ -1,70 +1,79 @@
 main {
-    .section-1 {
+    max-width: 1170px;
+    min-width: 44px;
+    margin: 7em auto;
+    padding: 0 1.5em;
+    .section-1-container {
         text-align: center;
         margin-bottom: 2rem;
-        .line {
-            width: 8rem;
-            height: 1px;
-            background-color: $darkGrayisViolet;
-            margin: 20px auto;
-            margin-top: 100px;
-        }
-        h1 {
-            font-size: 2em;
-        }
-    }
-    .section-2 {
-        text-align: center;
-        padding: 2rem 1rem;
-        display: grid;
-        gap: 3rem;
-        margin-bottom: 5rem;
-        article {
-            figure {
-                img {
-                    margin-bottom: 1rem;
-                }
-                h2 {
-                    margin-bottom: 1rem;
-                }
-                p {
-                    line-height: 1.5;
-                    color: $darkGrayisViolet;
-                }
+        .section-1 {
+            .line {
+                width: 8rem;
+                height: 1px;
+                background-color: $darkGrayisViolet;
+                margin: 20px auto;
             }
-        }
-    }
-    .section-3 {
-        background-color: $darkViolet;
-        padding: 90px 20px;
-        margin: 0 1rem;
-        margin-bottom: 8rem;
-        img {
-            position: absolute;
-            right: 0;
-            top: 132rem;
-            margin-right: 1em;
-        }
-        .how-we-work {
-            text-align: center;
-            position: relative;
-            padding: 5px;
             h1 {
                 font-size: 2em;
-                color: $white;
-                margin-bottom: 1em;
-                letter-spacing: 1px;
-                line-height: 1;
             }
-            button {
-                border: 1px solid $white;
-                color: $white;
-                padding: 10px 30px;
-                &:hover {
-                    background-color: $white;
-                    color: $veryDarkViolet;
+        }   
+    }
+    .section-2-container {
+        text-align: center;
+        margin: 5em auto;
+        .section-2 {
+            display: grid;
+            gap: 3rem;
+            article {
+                figure {
+                    img {
+                        margin-bottom: 1rem;
+                    }
+                    h2 {
+                        margin-bottom: 1rem;
+                    }
+                    p {
+                        line-height: 1.5;
+                        color: $darkGrayisViolet;
+                    }
                 }
             }
         }
+    }
+    .section-3-container {
+        background-color: $darkViolet;
+        .bg-how-we-work-mob {
+            position: absolute;
+            right: 1.5em;
+            top: 127.4em;
+        }
+        .section-3 {
+            padding: 4em 2em;
+            text-align: center;
+            position: relative;
+            .how-we-work {
+                text-align: center;
+                h1 {
+                    color: $white;
+                    margin-bottom: 1em;
+                    letter-spacing: 1px;
+                    line-height: 1.2;
+                    font-size: 2em;
+                }
+            }
+            .btn-how-we-work {
+                button {
+                    border: 2px solid $white;
+                    color: $white;
+                    padding: 10px 25px;
+                    font-weight: 700;
+                    &:hover {
+                        background-color: $white;
+                        color: $veryDarkViolet;
+                    }
+                }
+            }
+        }
+        
     }  
 }

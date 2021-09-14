@@ -34,6 +34,24 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent;
     padding: 10px;
 }
+.line-hero {
+    display: none;
+}
+.img-intro {
+    display: none;
+}
+.pattern-intro-right {
+    display: none;
+}
+.pattern-intro-left {
+    display: none;
+}
+.bg-how-we-work {
+    display: none;
+}
+.bg-footer {
+    display: none
+}
 
 @import 'header';
 @import 'main';
