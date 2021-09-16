@@ -1,3 +1,15 @@
+@media screen and (min-width: 395px) and (max-width: 420px) {
+    .hero-container {
+        .pattern-intro-mob-left {
+            top: 33.5rem;
+        }
+        .pattern-intro-mob-right {
+            top: 52rem;
+        }
+    }
+    
+}
+
 @media screen and (min-width: 425px) {
     .hero-container {
         .pattern-intro-mob-left {
@@ -247,7 +259,7 @@
     main {
         padding: 0;
         .section-3-container .bg-how-we-work {
-            top: 81.1em;
+            top: 80.5em;
             width: 22%;
             right: 5.5em;
         }
