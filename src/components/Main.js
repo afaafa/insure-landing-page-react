@@ -2,8 +2,6 @@ import React from "react";
 import ImgSnappyProcess from "../assets/images/icon-snappy-process.svg";
 import ImgAffordablePrices from "../assets/images/icon-affordable-prices.svg";
 import ImgPeopleFirst from "../assets/images/icon-people-first.svg";
-import BgHowWeWork from "../assets/images/bg-pattern-how-we-work-desktop.svg";
-import BgHowWeWorkMob from "../assets/images/bg-pattern-how-we-work-mobile.svg";
 
 class Main extends React.Component {
     render () {
@@ -44,8 +42,6 @@ class Main extends React.Component {
                     </div>
                 </section>
                 <section className="section-3-container">
-                    <img src={BgHowWeWorkMob} className="bg-how-we-work-mob" alt="bg pattern how we work" />
-                    <img src={BgHowWeWork} className="bg-how-we-work" alt="bg pattern how we work" />
                     <div className="section-3">
                         <div className="how-we-work">
                             <h1>Find out more about how we work</h1>
